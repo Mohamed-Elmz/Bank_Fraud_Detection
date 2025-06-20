@@ -1,4 +1,5 @@
-# Explainable Approach to Fraudulent Bank Account Detection
+# Explainable and Fairness Driven Approach to Fraudulent Bank Account Detection
+> The final report "Explainable and Fairness Driven Approach to Fraudulent Bank Account Detection" describing our project is availble here.
 
 ## Project Background
 
