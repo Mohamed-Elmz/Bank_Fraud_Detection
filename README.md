@@ -1,10 +1,4 @@
 # Explainable and Fairness Driven Approach to Fraudulent Bank Account Detection
 
-A financial crime prevention company named FeedzAi has recently released an anonymized bank account data set known as BAF(Bank Account Fraud) that ensures a specified level of privacy while maintaining utility. Our plan is to capitalize on this unique data and develop a state of the art deep neural network model that can detect fraudulent bank accounts with transparency and reliability.
-
-We propose to conduct a complete predictive analysis project to detect fraudulent bank accounts through binary classification. Our aims include:
-
-1) Creating a model on par with the state of the art, and providing accurate results supported by robust and reliable prediction intervals. 
-2) Examining model-level attribute importance and generating explainable insights from individual predictions, including misclassified samples.
-3) Performing a model fairness assessment to strengthen the confidence in our predictions.
+In today's financial sector, fraud detection methods that depend on machine learning are viewed as unreliable due to their hidden or black-box nature. As a result, financial institutions continue to rely on conventional practices such as flagging abnormal account activities and unusual account holder information to detect fraud. While these detection methods accurately identify known fraud patterns, they are more susceptible to complex and relatively new fraud tactics. The constant emergence of new fraud practices creates an urgency to capitalize on the unique pattern recognition capabilities of machine learning models, especially when the proper steps are employed to verify and explain their predictions. The following repository provides a practical example of an accurate and transparent machine learning approach to detecting fraudulent bank accounts.
 
