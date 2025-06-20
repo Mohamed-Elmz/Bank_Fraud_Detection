@@ -1,4 +1,4 @@
-# Explainable and Fairness Driven Approach to Fraudulent Bank Account Detection
+# Explainable Approach to Fraudulent Bank Account Detection
 
 ## Project Background
 
@@ -6,4 +6,4 @@ In today's financial sector, fraud detection methods that depend on machine lear
 
 ## About Our Data 
 
-A financial crime prevention company, FeedzAI, collaborated with researchers from the University of Porto in Portugal to developed a new type of bank fraud data know as the Bank Account Fraud (BAF) data set. BAF applies differential privacy techniques to real-world banking data inorder to obfuscate sensitive information while preserving the meaning of attributes, an uncommon, yet vital characteristic of fraud data sets. This unique type of fraud data presents an opportunity to develop an accurate and explainable machine learning model.
+A financial crime prevention company, FeedzAI, collaborated with researchers from the University of Porto in Portugal to developed a new type of bank fraud data know as the [Bank Account Fraud](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022) (BAF) data set. BAF applies differential privacy techniques to real-world banking data inorder to obfuscate sensitive information while preserving the meaning of attributes, an uncommon, yet vital characteristic of fraud data sets. This unique type of fraud data presents an opportunity to develop an accurate and explainable machine learning model.
