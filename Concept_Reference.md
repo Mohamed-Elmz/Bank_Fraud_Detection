@@ -5,6 +5,7 @@ coding competition and win a $2000 prize, calculating Shap values would tell us 
 
 *SHAP Values in ML*
 
+>[!IMPORTANT]
 >In the context of machine learning, players are replaced with features and the game outcome is replaced with the model’s prediction (predicted probability). Doing so allows us to **quantify how much each of the features contributed to the prediction** of a single record. Shap values are calculated through an equation known as marginal contribution.
 
 *What is Marginal Contribution?*
