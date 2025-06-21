@@ -1,4 +1,4 @@
-## Explainability
+# Explainability
 
 *What are SHAP Values?*
 
@@ -25,7 +25,7 @@ coding competition and win a $2000 prize, calculating Shap values would tell us 
 
 >To understand a feature’s importance in a model, it is necessary to understand both how changing that feature impacts the model’s output, and also the distribution of that feature's values. The dependency plot helps us visualize these relationships.
 
-## Fairness
+# Fairness
 
 >In general, It's desirable that a machine learning model does not make predictions from biases that may exist in sensitive features such as gender or ethnicity. It’s especially important when models are used in downstream decision making. Fairlearn has a framework to assess and improve model fairness for this exact reason.
 
