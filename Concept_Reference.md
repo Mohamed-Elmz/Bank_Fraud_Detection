@@ -8,23 +8,14 @@ coding competition and win a $2000 prize, calculating Shap values would explain 
 
 ### *What is Marginal Contribution?*
 
-Marginal Contribution represents the average difference in the model's output (predicted probability) when a feature is included and excluded from every possible subset of features. The equation below has two components, 1. An assigned weight (leftmost component), and 2. A difference in predictions (rightmost component).
+Marginal Contribution represents the average difference in the model's output (predicted probability) when a feature is included and excluded from every possible subset of features during prediction. As a result, calculating Marginal Contribution becomes increasingly difficult as the number of features/ attributes increases. To mitigate this complexity, Shap values are often estimated instead of directly calculated. The original [NeurIPS Paper](https://papers.nips.cc/paper_files/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html) discusses the estimation process thoroughly.
 
-  - F is the set of all features
-  - S is the feature who’s marginal contribution we calculate 
-  - S ⊊ F  are all the subsets of feature S
+### *What is Mean Absolute SHAP Value?*
 
-*What is Mean Absolute SHAP Value?*
-
->After calculating marginal contribution of each feature and record, you have a table of Shap values with the exact dimensions as your original data. The Mean Absolute Shap value of a feature is the sum of absolute shap values in the feature’s column divided by the total number of records. This is the Shap equivalent of a Random Forest model’s feature importance score.
- 
-*What are Dependence Plots?*
-
->To understand a feature’s importance in a model, it is necessary to understand both how changing that feature impacts the model’s output, and also the distribution of that feature's values. The dependency plot helps us visualize these relationships.
+Calculating or estimating Marginal Contribution results in a table of Shap values with the exact dimensions as your original data. The Mean Absolute Shap Value of a feature is the sum of absolute shap values in the feature’s column divided by the total number of records. Mean Absolute Shap Values describe Feature Contribution similar to the way that Mean Decrease in Impurity (MDI) describes Feature Importance.
 
 
-
->In general, It's desirable that a machine learning model does not make predictions from biases that may exist in sensitive features such as gender or ethnicity. It’s especially important when models are used in downstream decision making. Fairlearn has a framework to assess and improve model fairness for this exact reason.
+In general, It's desirable that a machine learning model does not make predictions from biases that may exist in sensitive features such as gender or ethnicity. It’s especially important when models are used in downstream decision making. Fairlearn has a framework to assess and improve model fairness for this exact reason.
 
 *What is the idea behind Fairlearn?*
 
